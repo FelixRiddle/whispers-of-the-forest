@@ -1,0 +1,34 @@
+{
+	"name": "whispers-of-the-forest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx ./src/main.ts",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FelixRiddle/whispers-of-the-forest.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/FelixRiddle/whispers-of-the-forest/issues"
+	},
+	"homepage": "https://github.com/FelixRiddle/whispers-of-the-forest#readme",
+	"dependencies": {
+		"@perseverancia/configuration": "*",
+		"@perseverancia/env": "*",
+		"@perseverancia/rest-api": "*",
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@perseverancia/types": "*",
+		"@types/jest": "^30.0.0",
+		"@types/node": "^24.3.0",
+		"jest": "^30.1.3",
+		"typescript": "^5.9.2"
+	}
+}
